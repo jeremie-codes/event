@@ -1,0 +1,405 @@
+:root {
+  --dark-color1: #212043;
+  --dark-color2: #282752;
+  --dark-color3: #FFD3CC;
+  --border-color: #e5c7ae;
+}
+
+.bg-dark-1,
+body,
+.sticky-header.fixed-header,
+.page-wrapper,
+.timeline-block .inner-box .icon,
+.contact-section-three .content-column .inner-column,
+.contact-form-two,
+.news-section,
+.header-style-five,
+.banner-section-five,
+.about-block-six .content-box,
+.timeline-section-two .outer-box,
+.contact-section-four .content-column .inner-column:before,
+.team-section-two.alternate,
+.footer-style-one .footer-top .outer-box.alternate,
+.clients-section-two .outer-box,
+.testimonial-section-four .owl-carousel .owl-dots .owl-dot.active,
+.testimonial-section-three .owl-carousel .owl-dots .owl-dot.active,
+.testimonial-section-five .owl-carousel .owl-dots .owl-dot.active,
+.contact-form-three,
+.countdown-section.style-two,
+.testimonial-section-six .owl-carousel .owl-dots .owl-dot.active,
+.about-section,
+.services-section,
+.service-block .inner-box::before,
+.service-block .inner-box::after,
+.service-block .inner-box .content-box::before,
+.service-block .inner-box .content-box::after,
+.services-section .bottom-text .icon,
+.fun-fact-section,
+.faq-section,
+.team-section,
+.pricing-section,
+.contact-section .testimonial-column .inner-column,
+.footer-style-one .footer-top .outer-box,
+.header-style-two .main-box .nav-outer .navigation > li.logo-box::before,
+.service-block-two .inner-box .image-box .title a,
+.about-section-two:before,
+.contact-section-two .content-column .inner-column,
+.testimonial-section .owl-carousel .owl-dots .owl-dot.active,
+.about-section-three .fact-counter-two,
+.about-block-four .inner-box .content-box,
+.banner-section-three .content-column .inner-column .content-box .theme-btn {
+  background-color: var(--dark-color1);
+}
+
+.services-section-three .bg::before,
+.pricing-section-three .outer-box::before {
+  background-color: rgba(33, 32, 67, 0.9);
+}
+
+.header-style-two .outer-box .social-icon-two a,
+.btn-style-two,
+.testimonial-block-three .inner-box .image-box .icon,
+.timeline-block-two .inner-box .icon-box .icon,
+.btn-style-one,
+.about-section-three .content-column .inner-column .theme-btn,
+.testimonial-block-two .inner-box,
+.testimonial-block-two .inner-box .image-box .icon {
+  background-color: var(--dark-color2);
+  color: var(--theme-color-light);
+}
+
+.testimonial-block-four .inner-box .image-box .icon,
+.testimonial-block-six .inner-box .image-box .icon,
+.invite-block .inner-box .icon-box .icon,
+.pricing-block .inner-box .theme-btn,
+.contact-form .form-group .theme-btn,
+.pricing-block-two .inner-box .content-box .title,
+.services-section-three .bottom-text .icon,
+.product-block .inner-box .image-box .theme-btn .btn-title,
+.about-section-three .image-column .inner-column .image-box .exp-box,
+.pricing-section-three .pricing-block-two .inner-box .content-box .title {
+  background-color: var(--dark-color1);
+  color: var(--theme-color-light);
+}
+
+.contact-form-two .form-group input:not([type=submit])::-webkit-input-placeholder, .contact-form-two .form-group textarea::-webkit-input-placeholder {
+  color: var(--theme-color-light);
+}
+
+.contact-form-two .form-group input:not([type=submit])::-moz-placeholder, .contact-form-two .form-group textarea::-moz-placeholder {
+  color: var(--theme-color-light);
+}
+
+.contact-form-two .form-group input:not([type=submit]):-ms-input-placeholder, .contact-form-two .form-group textarea:-ms-input-placeholder {
+  color: var(--theme-color-light);
+}
+
+.contact-form-two .form-group input:not([type=submit])::-ms-input-placeholder, .contact-form-two .form-group textarea::-ms-input-placeholder {
+  color: var(--theme-color-light);
+}
+
+h4 a,
+.sticky-header .main-menu .navigation > li.current > a,
+.sticky-header .main-menu .navigation > li:hover > a,
+.sticky-header .main-menu .navigation > li > a,
+.social-icon-two li a,
+.header-style-four .header-top .inner-container .top-right .outer-box .search-btn,
+.header-style-four .header-top .inner-container .top-right .outer-box .login-btn,
+.about-block-five .inner-box .content-box .name,
+.countdown-section .content-box .caption-box .address,
+.countdown-section .time-counter .time-countdown .counter-column .count,
+.countdown-section .time-counter .time-countdown .counter-column sub,
+.timeline-block .inner-box .icon,
+.timeline-block .inner-box .designation,
+.contact-form-two .form-group input:not([type=submit])::placeholder,
+.contact-form-two .form-group textarea::placeholder,
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.news-block .inner-box .content-box .post-meta li,
+.news-block .inner-box .content-box .post-meta li:first-child,
+.header-style-five .header-top .inner-container .top-right .outer-box .search-btn,
+.header-style-five .header-top .inner-container .top-right .outer-box .cart-btn,
+.testimonial-block-four .inner-box .text,
+.countdown-section-four .time-counter .time-countdown .counter-column sub,
+.testimonial-block-five .inner-box .text,
+.testimonial-block-five .inner-box .name,
+.header-style-seven .main-box .outer-box .social-icon-two a,
+.header-style-seven .main-box .outer-box .search-btn,
+.header-style-seven .main-box .outer-box .login-btn,
+.header-style-one .main-box .outer-box .contact,
+.service-block .inner-box .icon-box .icon,
+.counter-block .count-box,
+.counter-block .count-box .count-text,
+.faq-section .content-column .inner-column .accordion-box .block .acc-btn,
+.faq-section .content-column .inner-column .accordion-box .block .acc-btn .icon,
+.faq-section .content-column .inner-column .accordion-box .block .acc-btn.active .icon,
+.pricing-block .inner-box .title,
+.pricing-block .inner-box .title small,
+.testimonial-block .inner-box .title,
+.fun-fact-section .info-column .inner-column .exp-box .title,
+.about-section .image-column .inner-column .image-box .exp-box .title,
+.testimonial-slide .content-box .text,
+.header-style-three .main-box .outer-box .search-btn,
+.header-style-three .main-box .outer-box .login-btn,
+.service-block-four .inner-box .icon-box .icon,
+.service-block-four .inner-box .content-box .read-more,
+.about-section-three .content-column .inner-column .sec-title .text .letter,
+.testimonial-block-two .inner-box,
+.testimonial-block-two .inner-box .text {
+  color: var(--theme-color-light);
+}
+
+.bg-dark-2,
+.about-section-five .content-column .inner-column,
+.countdown-section .outer-box,
+.timeline-section,
+.contact-section-three .outer-box:before,
+.about-section-six,
+.timeline-section-two,
+.clients-section,
+.gallery-section-two.style-two,
+.contact-section-four,
+.testimonial-section-four,
+.main-footer,
+.custom-radio-box-two input ~ .checkmark,
+.news-block .inner-box .image-box .date,
+.banner-section-five .outer-box,
+.countdown-section-four .inner-container::before,
+.about-block-seven .content-box,
+.timeline-block-three .inner-box,
+.timeline-block-three .inner-box:hover,
+.contact-section-five,
+.contact-section-five .content-column .inner-column .contact-info-block .inner,
+.testimonial-section-five .outer-box,
+.invite-section .outer-box,
+.contact-section-six .content-column .inner-column .bg:before,
+.testimonial-section-six,
+.news-section.style-two .news-block .inner-box .image-box .date,
+.header-style-one .main-box .logo-box:before,
+.header-style-one .header-top,
+.service-block .inner-box,
+.services-section .bottom-text,
+.gallery-section,
+.faq-section .content-column .inner-column,
+.faq-section,
+.pricing-section .outer-box .bg::before,
+.contact-section,
+.contact-form,
+.contact-section .owl-carousel .owl-dots .owl-dot.active,
+.team-section .owl-carousel .owl-dots .owl-dot.active,
+.fun-fact-section .info-column .inner-column .exp-box,
+.about-section .image-column .inner-column .image-box .exp-box,
+.header-style-two .header-top,
+.services-section-two .owl-carousel .owl-dots .owl-dot.active,
+.fun-fact-section,
+.about-section-two .content-column .inner-column,
+.about-block-two.style-two .inner-box,
+.pricing-section-two,
+.service-block-three .inner-box,
+.services-section-three .bottom-text,
+.testimonial-section,
+.about-section-three::before,
+.about-section-four,
+.about-image-block .inner-box .image-box .info-box,
+.testimonial-section-two .owl-carousel .owl-dots .owl-dot.active,
+.banner-section-three .bg {
+  background-color: var(--dark-color2);
+}
+
+.about-block-seven.shape-1 .inner-box:before {
+  border-left-color: var(--dark-color2);
+}
+
+.about-block-seven.shape-2 .inner-box:before {
+  border-right-color: var(--dark-color2);
+}
+
+.theme-color-2 {
+  color: var(--dark-color2);
+}
+
+.bg-dark-3 {
+  background-color: var(--dark-color3);
+}
+
+.theme-color-3,
+.about-block-five .inner-box .content-box .designation,
+.about-block-five .inner-box .content-box .social-icon-two a,
+.sec-title.v2 .sub-title,
+.countdown-section .content-box .caption-box .date,
+.timeline-block .inner-box .time,
+.gallery-block-three .inner-box .info-box .text,
+.contact-section-three .content-column .inner-column .content-box .text {
+  color: var(--dark-color3);
+}
+
+.btn-style-three,
+.work-tabs .tab-buttons .tab-btn {
+  background-color: #000;
+}
+
+.process-block .inner-box::before {
+  border-color: var(--dark-color1);
+}
+
+.btn-style-two {
+  border-color: var(--dark-color3);
+}
+
+.service-block-four .inner-box,
+.pricing-block .inner-box .content-box,
+.news-block-five .inner-box {
+  outline: var(--dark-color3);
+}
+
+.couple-block .content-box .designation {
+  color: var(--theme-color1);
+}
+
+.custom-radio-box input ~ .checkmark {
+  background-color: var(--theme-color1);
+}
+
+.main-menu .navigation > li > a,
+.main-menu .navigation > li.current > a,
+strong,
+.title a,
+.sec-title h2,
+p,
+.text {
+  color: #fff;
+}
+
+.text-lights {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bg-dark-text-light {
+  background-color: var(--dark-color1);
+  color: #ffffff;
+}
+
+/*	Border Color */
+.border-color,
+.about-section-five .content-column .inner-column:before,
+.countdown-section .outer-box:before,
+.contact-form-two .form-group input:not([type=submit]),
+.news-block .inner-box .image-box,
+.client-block-two,
+.header-style-four .header-top .inner-container,
+.header-style-four .header-top .inner-container .top-center .logo-box,
+.contact-form-two .form-group textarea,
+.contact-form-two .form-group .select2-container--default .select2-selection--single,
+.testimonial-block-three .inner-box,
+.testimonial-block-three .inner-box:after,
+.testimonial-block-three .inner-box:before,
+.banner-section-four .content-column .inner-column .date,
+.about-block-six .content-box,
+.timeline-section-two .outer-box:before,
+.client-block .inner-box,
+.footer-bottom .inner-container,
+.client-block-two,
+.testimonial-section-three .owl-carousel .owl-dots .owl-dot,
+.testimonial-section-four .owl-carousel .owl-dots .owl-dot,
+.gallery-block-two .inner-box .info-box::after,
+.about-section-six .image-column .inner-column .image-box .image,
+.about-section-five .image-column .inner-column .image-box .image,
+.about-image-block-two .inner-box .image-box .image,
+.testimonial-section-five .outer-box:before,
+.testimonial-section-five .owl-carousel .owl-dots .owl-dot,
+.invite-section .outer-box:before,
+.contact-section-six .outer-box,
+.contact-form-three .form-group .select2-container--default .select2-selection--single,
+.contact-form-three .form-group select,
+.contact-form-three .form-group textarea,
+.contact-form-three .form-group input:not([type=submit]),
+.contact-section-six .form-column .inner-column,
+.testimonial-block-six .inner-box:after,
+.testimonial-block-six .inner-box:before,
+.testimonial-block-six .inner-box,
+.testimonial-section-six .owl-carousel .owl-dots .owl-dot,
+.faq-section .content-column .inner-column .accordion-box .block .acc-btn,
+.pricing-block .inner-box .theme-btn,
+.contact-form .form-group .select2-container--default .select2-selection--single,
+.contact-form .form-group select,
+.contact-form .form-group textarea,
+.contact-form .form-group input:not([type=submit]),
+.contact-section .owl-carousel .owl-dots .owl-dot,
+.team-block .inner-box .image-box::before,
+.team-section .owl-carousel .owl-dots .owl-dot,
+.team-block .inner-box .image-box .image img,
+.newsletter-form .form-group input[type=text],
+.newsletter-form .form-group input[type=email],
+.header-style-one .main-box .logo-box,
+.gallery-block .inner-box .image-box .title:after,
+.banner-section-two .outer-box .content-box::before,
+.services-section-two .owl-carousel .owl-dots .owl-dot,
+.product-block .inner-box .image-box .image::before,
+.testimonial-section .owl-carousel .owl-dots .owl-dot,
+.header-style-three .header-top,
+.banner-section-three .image-column .inner-column .image-box .image-2,
+.about-section-three .content-column .inner-column .theme-btn,
+.testimonial-block-two .inner-box,
+.testimonial-block-two .inner-box:after,
+.testimonial-block-two .inner-box:before,
+.testimonial-section-two .owl-carousel .owl-dots .owl-dot,
+.banner-section-three .image-column .inner-column .image-box .image-1 {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.about-section-five .outer-box:before,
+.timeline-section .carousel-outer:before,
+.timeline-block-two .inner-box:before,
+.call-to-action-four .inner-box .sec-title .icon-heart:after,
+.call-to-action-four .inner-box .sec-title .icon-heart:before,
+.header-style-seven .main-box .outer-box .divider,
+.timeline-section-four .outer-box:before,
+.timeline-block-four .inner-box:before,
+.header-style-one .main-box .logo-box,
+.header-style-one .main-box .outer-box .divider,
+.banner-section .outer-box .content-box::before,
+.banner-section .outer-box .content-box::after,
+.testimonial-block .inner-box::before,
+.counter-block .inner::before {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.testimonial-block .inner-box .icon {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.event-section .float-text,
+.timeline-block-three .inner-box .icon-box .icon-flower-18,
+.icon-flower-18,
+.icon-color {
+  opacity: 0.2;
+}
+
+.header-style-two,
+.footer-style-five .footer-lower,
+.service-block-two .inner-box .image-box .image::after,
+.service-block-two .inner-box .image-box .image:before {
+  background-color: unset;
+}
+
+.counter-block .inner {
+  background-image: unset;
+}
+
+.couple-frame {
+  background-image: url(../images/icons/couple-frame-dark.html);
+}
+
+.curve {
+  background-image: url(../images/icons/curve-dark.png);
+}
+
+.curve-2 {
+  background-image: url(../images/icons/curve-dark.png);
+}
+
+.icon-leave,
+.client-block-two .inner-box .image img,
+.client-block .inner-box .image img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "flaticon_mycollection";
+    src: url("../fonts/flaticon_mycollection360b.ttf?1c0b5bc5e121d78b79113d983bb2f500") format("truetype"),
+url("../fonts/flaticon_mycollection360b.woff?1c0b5bc5e121d78b79113d983bb2f500") format("woff"),
+url("../fonts/flaticon_mycollection360b.woff2?1c0b5bc5e121d78b79113d983bb2f500") format("woff2"),
+url("../fonts/flaticon_mycollection360b.eot?1c0b5bc5e121d78b79113d983bb2f500#iefix") format("embedded-opentype"),
+url("../fonts/flaticon_mycollection360b.svg?1c0b5bc5e121d78b79113d983bb2f500#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-wedding-arch:before {
+    content: "\f101";
+}
+.flaticon-wedding-arch-1:before {
+    content: "\f102";
+}
+.flaticon-love-birds:before {
+    content: "\f103";
+}
+.flaticon-candelabra:before {
+    content: "\f104";
+}
+.flaticon-high-heels:before {
+    content: "\f105";
+}
+.flaticon-dress:before {
+    content: "\f106";
+}
+.flaticon-wedding-dress:before {
+    content: "\f107";
+}
+.flaticon-wedding-ring:before {
+    content: "\f108";
+}
+.flaticon-diamond-ring:before {
+    content: "\f109";
+}
+.flaticon-hearts:before {
+    content: "\f10a";
+}
