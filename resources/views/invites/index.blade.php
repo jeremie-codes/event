@@ -505,6 +505,7 @@
                 Merci de verifier votre reponse avant de confirmer.
             </div>
         @endif
+
         <!-- Banner Section -->
         <section class="banner-section-six" id="home">
             <div class="bg">
@@ -544,8 +545,8 @@
                                     <span class="sub-title fwbold" style="font-size: 64px">Invitation</span>
 
                                     <div class="d-flex justify-content-between">
-                                        <h4 class="fw-semibold">M, Mme, Mlle, Couple: .........................</h4>
-                                        <h4 class="fw-semibold">Table: ..........</h4>
+                                        <h4 class="fw-semibold">M, Mme, Mlle, Couple: ..{{ $guest->name }}..</h4>
+                                        <h4 class="fw-semibold">Table: ..{{ $guest->table->name }}..</h4>
                                     </div>
 
                                     <div class="text">
