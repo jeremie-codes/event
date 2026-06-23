@@ -413,7 +413,7 @@
                                 <ul class="navigation onepage-nav">
                                     <li><a href="#home">Accueil</a></li>
                                     <li><a href="#about">Invitation</a></li>
-                                    <li><a href="#about">Programme</a></li>
+                                    <li><a href="#program">Programme</a></li>
                                     <li><a href="#rsvp">RSVP</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                 </ul> <!-- Main Menu End-->
@@ -434,8 +434,7 @@
                 <nav class="menu-box">
                     <div class="upper-box">
                         <div class="nav-logo">
-                            <a href="index.html"><img src="{{ asset('assets/images/logo.png') }}" alt=""
-                                    title="LoveBite" /></a>
+                            <a href="/"><img src="{{ asset('assets/images/logo.png') }}" alt="" title="Raphael & Divine" /></a>
                         </div>
                         <div class="close-btn"><i class="icon fa fa-times"></i></div>
                     </div>
@@ -447,50 +446,22 @@
                     <ul class="contact-list-one">
                         <li>
                             <i class="icon lnr-icon-phone-handset"></i>
-                            <span class="title">Call Now</span>
-                            <div class="text"><a href="tel:+92880098670">+92 (8800) - 98670</a></div>
+                            <span class="title">Téléphone</span>
+                            <div class="text"><a  href="tel:+243827289636">+243 827 289 636</a></div>
                         </li>
                         <li>
-                            <i class="icon lnr-icon-envelope1"></i>
-                            <span class="title">Send Email</span>
-                            <div class="text"><a
-                                    href="https://html.kodesolution.com/cdn-cgi/l/email-protection#5e363b322e1e3d31332e3f3027703d3133"><span
-                                        class="__cf_email__"
-                                        data-cfemail="761e131a063615191b0617180f5815191b">[email&#160;protected]</span></a>
+                            <i class="icon fal fa-clock"></i>
+                            <span class="title">Date</span>
+                            <div class="text">
+                                <a>
+                                    <span class="__cf_email__" data-cfemail="761e131a063615191b0617180f5815191b">18 juillet 2026</span>
+                                </a>
                             </div>
                         </li>
-                        <li>
-                            <i class="icon lnr-icon-map-marker"></i>
-                            <span class="title">Address</span>
-                            <div class="text">66 Broklyant, New York India 3269</div>
-                        </li>
-                    </ul>
-                    <ul class="social-links">
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </nav>
             </div>
             <!-- End Mobile Menu -->
-
-            <!-- Header Search -->
-            <div class="search-popup">
-                <span class="search-back-drop"></span>
-                <button class="close-search"><span class="fa fa-times"></span></button>
-
-                <div class="search-inner">
-                    <form method="post" action="https://html.kodesolution.com/2024/lovebite-php/index.php">
-                        <div class="form-group">
-                            <input type="search" name="search-field" value="" placeholder="Search..."
-                                required="" />
-                            <button type="submit"><i class="fa fa-search"></i></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!-- End Header Search -->
 
             <!-- Sticky Header  -->
             <div class="sticky-header">
@@ -498,8 +469,7 @@
                     <div class="inner-container">
                         <!--Logo-->
                         <div class="logo">
-                            <a href="index.html" title=""><img src="{{ asset('assets/images/logo.png') }}"
-                                    alt="" title="Love Bite"></a>
+                            <a href="/" title=""><img src="{{ asset('assets/images/logo.png') }}" alt="" title="Raphael & Divine"></a>
                         </div>
 
                         <!--Right Col-->
@@ -536,7 +506,7 @@
             </div>
         @endif
         <!-- Banner Section -->
-        <section class="banner-section-six">
+        <section class="banner-section-six" id="home">
             <div class="bg">
                 <div class="bg-image" style="background-image: url({{ asset('images/bann-1.png') }})"></div>
             </div>
@@ -559,6 +529,8 @@
             </div>
         </section>
         <!-- End Banner Section -->
+
+        <!-- About Section -->
         <section class="about-section-seven" id="about">
             <div class="flowers-20 bounce-y"></div>
             <div class="flowers-19 bounce-y"></div>
@@ -614,7 +586,9 @@
                 </div>
             </div>
         </section>
-        <!-- End Banner Section --><!-- Countdown section -->
+        <!-- End Banner Section -->
+        
+        <!-- Countdown section -->
         <section class="pt-0 countdown-section" id="event">
             <div class="auto-container">
                 <div class="inner-container">
@@ -652,8 +626,10 @@
                 </div>
             </div>
         </section>
-        <!-- End Countdown section --><!-- Timeline Section -->
-        <section class="timeline-section pb-90">
+        <!-- End Countdown section -->
+        
+        <!-- Timeline Section -->
+        <section class="timeline-section pb-90" id="program">
             <div class="flower-3 bounce-y"></div>
             <div class="flower-4 bounce-y"></div>
             <div class="bg bg-image" style="background-image: url({{ asset('assets/images/background/6.jpg') }})">
@@ -843,7 +819,7 @@
         <!-- End Interactive Section -->
 
         <!-- Main Footer -->
-        <footer class="main-footer footer-style-one">
+        <footer class="main-footer footer-style-one" id="contact">
             <div class="bg bg-pattern-1 bounce-y"></div>
             <!--  Footer Bottom -->
             <div class="footer-bottom">

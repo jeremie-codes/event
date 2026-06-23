@@ -20,7 +20,7 @@ class GuestForm
                 TextInput::make('phone')
                     ->tel(),
                 Select::make('drinks')
-                    ->label('Boissons')
+                    ->label('Boissons (Laiisez vide pour que l\'invité choisisse lui-même)')
                     ->relationship('drinks', 'name')
                     ->multiple()
                     ->preload()
@@ -52,7 +52,7 @@ class GuestForm
                     ->columnSpanFull(),
                 Textarea::make('comment')
                     ->columnSpanFull(),
-                DateTimePicker::make('responded_at'),
+                //DateTimePicker::make('responded_at'),
             ]);
     }
 }
