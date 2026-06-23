@@ -48,10 +48,10 @@ License: copyright commercial
   --theme-color-light: #ffffff;
   --theme-color-dark: #000000;
   --theme-color-gray: #F6F6F6;
-  --theme-color1: #e18037;
+  --theme-color1: #629bb6;
   --theme-color2: #fdece3;
   --theme-color3: #faf7f2;
-  --theme-color4: #c98568;
+  --theme-color4: #629bb6; 
   --theme-color1-rgb: 225, 128, 55;
   --theme-color2-rgb: 253, 236, 227;
   --theme-color3-rgb: 250, 247, 242;
@@ -5548,12 +5548,12 @@ Section Title
   height: 100%;
   width: 100%;
   background-color: #3b4973;
-  opacity: 0.6;
+  opacity: 0.3;
   z-index: 1;
 }
 @media (max-width: 767.98px) {
   .banner-section-six .bg:before {
-    opacity: 0.8;
+    opacity: 0.3;
   }
 }
 .banner-section-six .bg-image {

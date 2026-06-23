@@ -70,7 +70,7 @@ class GuestsTable
                             $record->phone .
                             '?text=' .
                             urlencode(
-                            "Bonjour {$record->name}, Vous êtes invité à notre mariage. Consultez votre invitation ici : " . route('invitation.show', $record)
+                            "Bonjour {$record->name}, Vous êtes invité à notre mariage. Consultez votre invitation ici : " . route('invite.show', $record)
                         )
 
                     )

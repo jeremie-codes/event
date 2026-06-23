@@ -25,4 +25,9 @@ class Guest extends Model
     {
         return $this->belongsTo(Table::class);
     }
+
+    public function present()
+    {
+        return $this->responded_at && $this->status === 'present';
+    }
 }
