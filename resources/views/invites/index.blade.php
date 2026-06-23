@@ -545,8 +545,8 @@
                                     <span class="sub-title fwbold" style="font-size: 64px">Invitation</span>
 
                                     <div class="d-flex justify-content-between">
-                                        <h4 class="fw-semibold">M, Mme, Mlle, Couple: ..{{ $guest->name }}..</h4>
-                                        <h4 class="fw-semibold">Table: ..{{ $guest->table->name }}..</h4>
+                                        <h4 class="fw-semibold">M, Mme, Mlle, Couple: .. <b>{{ $guest->name }}</b>..</h4>
+                                        <h4 class="fw-semibold">Table: ..<b>{{ $guest->table->name }}</b>..</h4>
                                     </div>
 
                                     <div class="text">
