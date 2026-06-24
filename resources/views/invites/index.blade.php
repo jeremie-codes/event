@@ -18,8 +18,11 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:type" content="image/png">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ url('images/brand.png') }}">
+    <meta name="og:card" content="summary_large_image">
+    <meta name="og:image" content="{{ url('images/brand.png') }}">
+    <meta property="og:image:width" content="873">
+    <meta property="og:image:height" content="655">
+
     <title>Invitation Mariage</title>
     <!-- Stylesheets -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
