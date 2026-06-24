@@ -7,14 +7,19 @@
 
 <head>
     <meta charset="utf-8">
-     <meta property="og:title" content="Invitation Mariage Raphael et Divine">
+    <meta property="og:title" content="Invitation Mariage Raphael et Divine">
     <meta property="og:description" content="Wedding Events | Planificateur d'évènements Mariage de Raphael et Divine">
-    <meta property="og:image:width" content="1200"/>
-    <meta property="og:image:height" content="630"/>
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image" content="{{ asset('images/brand.png') }}"/>
-    <meta property="og:url" content="{{ asset('images/brand.png') }}"/>
-    <meta property="og:type" content="website" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+
+    <meta property="og:image" content="{{ url('images/brand.png') }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ url('images/brand.png') }}">
     <title>Invitation Mariage</title>
     <!-- Stylesheets -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
