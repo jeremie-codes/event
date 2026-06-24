@@ -12,8 +12,8 @@
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image" content="{{ asset('images/img.png') }}"/>
-    <meta property="og:url" content="{{ url('') }}"/>
+    <meta property="og:image" content="{{ asset('images/brand.png') }}"/>
+    <meta property="og:url" content="{{ asset('images/brand.png') }}"/>
     <meta property="og:type" content="website" />
     <title>Invitation Mariage</title>
     <!-- Stylesheets -->
@@ -588,7 +588,7 @@
             </div>
         </section>
         <!-- End Banner Section -->
-        
+
         <!-- Countdown section -->
         <section class="pt-0 countdown-section" id="event">
             <div class="auto-container">
@@ -628,7 +628,7 @@
             </div>
         </section>
         <!-- End Countdown section -->
-        
+
         <!-- Timeline Section -->
         <section class="timeline-section pb-90" id="program">
             <div class="flower-3 bounce-y"></div>
