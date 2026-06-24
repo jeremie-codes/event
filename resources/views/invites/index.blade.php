@@ -19,7 +19,7 @@
     <meta property="og:image:type" content="image/png">
 
     <meta name="og:card" content="summary_large_image">
-    <meta name="og:image" content="{{ url('images/brand.png') }}">
+    <meta name="og:image" content="{{ url('images/brand-2.png?v=2') }}">
     <meta property="og:image:width" content="873">
     <meta property="og:image:height" content="655">
 
