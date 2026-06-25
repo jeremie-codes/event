@@ -623,7 +623,7 @@
                         </div>
 
                         <div class="btn-box">
-                            <a href="https://www.google.com/maps/place//@-4.3350428,15.3116783,17z/data=!3m1!4b1!4m6!1m5!3m4!2zNMKwMjAnMDYuMiJTIDE1wrAxOCc1MS4zIkU!8m2!3d-4.3350556!4d15.31425?hl=fr&entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D"
+                            <a href="https://maps.app.goo.gl/V4ojH3k5owRPjq7Z9?g_st=aw"
                                 class="theme-btn btn-style-one">
                                 <i class="fa fa-location-dot" aria-hidden="true"></i>
                                 <span class="btn-title ps-2">
