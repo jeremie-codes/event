@@ -12,17 +12,7 @@ class InviteController extends Controller
 
     public function index()
     {
-        if (! Schema::hasTable('guests')) {
-            return response('Invitation app is ready.');
-        }
-
-        $guest = Guest::query()->first();
-
-        if (! $guest) {
-            return response('Aucune invitation disponible pour le moment.');
-        }
-
-        return redirect()->route('invite.show', $guest);
+        return redirect(asset('images/banner.jpeg'));
     }
 
     public function show(Guest $guest)
@@ -57,11 +47,9 @@ class InviteController extends Controller
             $guest->drinks()->sync(
                 $validated['drinks'] ?? []
             );
-
         } else {
 
             $guest->drinks()->detach();
-
         }
 
         return back()->with(

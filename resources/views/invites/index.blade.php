@@ -553,8 +553,8 @@
                                     <span class="sub-title fwbold" style="font-size: 64px">Invitation</span>
 
                                     <div class="d-flex justify-content-between">
-                                        <h4 class="fw-semibold">M, Mme, Mlle, Couple: .. <b style="font-weight: bold;">{{ $guest->name }}</b>..</h4>
-                                        <h4 class="fw-semibold">Table: ..<b style="font-weight: bold;">{{ $guest->table->name }}</b>..</h4>
+                                        <h4 class="fw-semibold">M, Mme, Mlle, Couple: .. <b style="font-weight: bold;">{{ $guest->name ?? null }}</b>..</h4>
+                                        <h4 class="fw-semibold">Table: ..<b style="font-weight: bold;">{{ $guest->table?->name ?? null }}</b>..</h4>
                                     </div>
 
                                     <div class="text">
@@ -814,7 +814,7 @@
                                         {{-- <p>.</p> --}}
                                     </div>
 
-                                    <a download="invitation-{{ $guest->name }}.pdf" id="downloadButton" type="button" href="{{ asset('storage/' . $guest->invitation_pdf) }}" class="py-2 mt-md1 btn btn-success btn-sm" role="button">
+                                    <a download="{{ 'Invitation-' . $guest->name }}" id="downloadButton" type="button" href="{{ asset('storage/' . $guest->invitation_pdf ?? '') }}" class="py-2 mt-md1 btn btn-success btn-sm" role="button">
                                         <i class="fa fa-download" aria-hidden="true"></i>
                                         Télécharger
                                     </a>
