@@ -549,7 +549,7 @@
                         <!-- Content Column -->
                         <div class="py-0 mx-auto my-0 content-column col-lg-8 col-md-12 col-sm-12">
                             <div class="py-0 my-0 inner-column">
-                                <div class="text-center sec-title v2">
+                                <div class="pt-2 text-center sec-title v2">
                                     <span class="sub-title fwbold" style="font-size: 64px">Invitation</span>
 
                                     <div class="d-flex justify-content-between">
